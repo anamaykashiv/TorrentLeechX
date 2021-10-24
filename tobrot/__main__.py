@@ -102,7 +102,7 @@ if __name__ == "__main__":
     if not os.path.isdir(DOWNLOAD_LOCATION):
         os.makedirs(DOWNLOAD_LOCATION)
 
-    bot.set_my_commands(botcmds)
+   # bot.set_my_commands(botcmds)
     ##############################################################################
     incoming_message_handler = MessageHandler(
         incoming_message_f,
