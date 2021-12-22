@@ -71,7 +71,7 @@ from tobrot.plugins.status_message_fn import (
     upload_as_doc,
     upload_as_video
 )
-
+'''
 botcmds = [
         (f'{BotCommands.ExtractCommand}', 'Unarchive items and upload to telegram'),
         (f'{BotCommands.gExtractCommand}','This will unarchive file and upload to cloud.'),
@@ -96,13 +96,13 @@ botcmds = [
         (f'{BotCommands.TsHelpCommand}','Get help for Torrent Search Module')
 
     ]
-
+'''
 if __name__ == "__main__":
     # create download directory, if not exist
     if not os.path.isdir(DOWNLOAD_LOCATION):
         os.makedirs(DOWNLOAD_LOCATION)
 
-   # bot.set_my_commands(botcmds)
+   
     ##############################################################################
     incoming_message_handler = MessageHandler(
         incoming_message_f,
